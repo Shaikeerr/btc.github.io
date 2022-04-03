@@ -1,0 +1,345 @@
+@font-face {
+    font-family: 'CyberpunkWaifus';
+    src: url('../Font/CyberpunkWaifus.eot');
+    src: url('../Font/CyberpunkWaifus.eot?#iefix') format('embedded-opentype'),
+         url('../Font/CyberpunkWaifus.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+#corps{
+    background-image: url('Textures\ BTC/bg_btc.png');
+    background-size: cover;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#Bouton_Reset {
+  font-family: 'CyberpunkWaifus';
+  background-color: black;
+  border: solid #ffa043 5px;
+  color: #ffa043;
+  font-size: 35px;
+
+  position: absolute;
+  top: 74.5%;
+  left: 62.72%;
+  padding-left: 2.25%;
+  padding-right: 2.25%;
+  padding-top: 0.53%;
+  padding-bottom: 0.53%;
+
+  transition: all 0.5s;
+}
+
+#Bouton_Reset:hover {
+  background-color: #ffa043;
+  border: solid black 5px;
+  color: black;
+  transition: 0.5s;
+}
+
+#Bouton_Mixer {
+  font-family: 'CyberpunkWaifus';
+  background-color: black;
+  border: solid #76d969 5px;
+  color: #76d969;
+  font-size: 35px;
+
+  position: absolute;
+  top: 74.5%;
+  left: 86.2%;
+  padding-left: 2.25%;
+  padding-right: 2.25%;
+  padding-top: 0.53%;
+  padding-bottom: 0.53%;
+
+  transition: all 0.5s;
+}
+
+#Bouton_Mixer_Gris {
+  font-family: 'CyberpunkWaifus';
+  background-color: black;
+  border: solid grey 5px;
+  color: grey;
+  font-size: 35px;
+
+  position: absolute;
+  top: 74.5%;
+  left: 86.2%;
+  padding-left: 2.25%;
+  padding-right: 2.25%;
+  padding-top: 0.53%;
+  padding-bottom: 0.53%;
+  transition: all 0.5s;
+}
+
+#Bouton_Mixer:hover {
+  background-color: #76d969;
+  border: solid black 5px;
+  color: black;
+  transition: 0.5s;
+}
+
+#drink_name{
+  position: absolute;
+  top: 77%;
+  width: 11%;
+  height: 5%;
+  left: 74.5%;
+
+}
+
+#drink_name_text {
+  position: absolute;
+  left: 75%;
+  top: 74.5%;
+  font-family: "CyberpunkWaifus";
+  font-size: 28px;
+  color: white;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+#Adelhyde {
+  position: absolute;
+  top: 43%;
+  left: 63%;
+  width: 47px;
+  height: 84px;
+
+}
+
+#Texte_Adelhyde {
+  position: absolute;
+  top: 36.5%;
+  left: 65%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 22px;
+  color: white;
+}
+
+#Nombre_Adelhyde {
+  position: absolute;
+  top: 35.5%;
+  left: 68.5%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 72px;
+  color: #d45164;
+}
+
+#Bronson{
+  position: absolute;
+  top: 43%;
+  left: 74.5%;
+  width: 47px;
+  height:84px;
+}
+
+#Texte_Bronson {
+  position: absolute;
+  top: 36.5%;
+  left: 76%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 22px;
+  color: white;
+}
+
+#Nombre_Bronson {
+  position: absolute;
+  top: 35.5%;
+  left: 80.5%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 72px;
+  color: #fec73d;
+}
+
+#Flanergide{
+  position: absolute;
+  left: 63%;
+  top: 61.5%;
+  width: 47px;
+  height:84px;
+}
+
+#Nombre_Flanergide {
+  position: absolute;
+  top: 54%;
+  left: 68.5%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 72px;
+  color: #a1c771;
+}
+
+#Texte_Flanergide {
+  position: absolute;
+  top: 55%;
+  left: 64.5%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 22px;
+  color: white;
+}
+
+#Karmotrine {
+  position: absolute;
+  top: 61.5%;
+  left: 86.2%;
+  width: 47px;
+  height:84px;
+}
+
+#Texte_Karmotrine {
+  position: absolute;
+  top: 55%;
+  left: 88%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 22px;
+  color: white;
+}
+
+#Nombre_Karmotrine {
+  position: absolute;
+  top: 54%;
+  left: 92.5%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 72px;
+  color: #c5e4e4;
+}
+
+#Pwd_Delta{
+  position: absolute;
+  top: 43%;
+  left: 86.2%;
+  width: 47px;
+  height:84px;
+}
+
+#Texte_Delta {
+  position: absolute;
+  top: 36.5%;
+  left: 88.2%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 22px;
+  color: white;
+}
+
+#Nombre_Delta {
+  position: absolute;
+  top: 35.5%;
+  left: 92.5%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 72px;
+  color: #6b86e9;
+}
+
+#Age {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 64%;
+  left: 57.1%;
+}
+
+#Texte_Age {
+  position: absolute;
+  top: 55%;
+  left: 57.2%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 22px;
+  color: white;
+}
+
+#Ice {
+  height: 50px;
+  width: 60px;
+  position: absolute;
+  top: 45%;
+  left: 57%;
+}
+
+#Texte_Glace {
+  position: absolute;
+  top: 36.5%;
+  left: 57.2%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 22px;
+  color: white;
+}
+
+#Boisson {
+  position: absolute;
+  top: 56%;
+  left: 74.9%;
+  width: 150px;
+  height: 150px;
+  animation-fill-mode: forwards;
+
+}
+
+#B_T_C {
+  position: absolute;
+  top: 8.75%;
+  left: 3.23%;
+  width: 765px;
+  height: 561px;
+}
+
+#Left_arrow_BTC {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 74%;
+  left: 7%;
+}
+
+#Right_arrow_BTC {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  top: 74%;
+  left: 47.2%;
+}
+
+#Page_BTC {
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 36px;
+  color: white;
+}
+
+@keyframes Mix {
+  0% {transform: rotate(-40deg);}
+  10% {transform: rotate(40deg);}
+  20% {transform: rotate(-40deg);}
+  30% {transform: rotate(40deg);}
+  40% {transform: rotate(-40deg);}
+  50% {transform: rotate(40deg);}
+  60% {transform: rotate(-40deg);}
+  70% {transform: rotate(40deg);}
+  80% {transform: rotate(-40deg);}
+  90% {transform: rotate(40deg);}
+  100% {transform: rotate(-40deg);}
+}
+
+@keyframes spin2 { 100% { transform:rotate(-360deg); } }
+
+.mixing {
+  animation: Mix 5s infinite;
+}
+
+.blending {
+  animation: Mix 2.5s infinite;
+}
+
+.stop {
+  animation: none !important;
+}

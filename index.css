@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'CyberpunkWaifus';
+    src: url('CyberpunkWaifus.eot');
+    src: url('CyberpunkWaifus.eot?#iefix') format('embedded-opentype'),
+         url('CyberpunkWaifus.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  
+
+#corps{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 186px;
+}
+
+#Bouton{
+    font-family: 'CyberpunkWaifus';
+    background-color: aliceblue;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
