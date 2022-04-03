@@ -273,6 +273,22 @@
   color: white;
 }
 
+#Lien_Jukebox {
+  text-decoration: none;
+  position: absolute;
+  top: 87.5%;
+  left: 69.2%;
+  font-family: 'CyberpunkWaifus';
+  font-size: 36px;
+  color: rgb(180, 180, 180);
+  transition: all 1s;
+}
+
+#Lien_Jukebox:hover {
+  color: rgb(255, 0, 140);
+  transition: all 1s;
+}
+
 #Boisson {
   position: absolute;
   top: 56%;
