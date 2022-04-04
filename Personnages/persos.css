@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'CyberpunkWaifus';
+    src: url('../Font/CyberpunkWaifus.eot');
+    src: url('../Font/CyberpunkWaifus.eot?#iefix') format('embedded-opentype'),
+         url('../Font/CyberpunkWaifus.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  #corps{
+    background-image: url('Textures Persos/bg_persos.png');
+    background-size: cover;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#Gif {
+    position: absolute;
+    top: 13.35%;
+    left: 36.9%;
+    width: 243.2px;
+    height: 105.2px;
+}
